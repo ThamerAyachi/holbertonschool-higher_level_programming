@@ -13,3 +13,4 @@
 | 6-concat.py       | print `Welcome to Holberton School!`                                                                                     |
 | 7-edges.py        | 7. Copy - Cut - Paste                                                                                                    |
 | 8-concat_edges.py | print `object-oriented programming` with Python, followed by a new line.                                                 |
+| 9-easter_egg.py   | Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.                             |
