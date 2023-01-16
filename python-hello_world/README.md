@@ -11,3 +11,4 @@
 | 4-print_float.py  | Complete the source code in order to print the float stored in the variable number                                       |
 | 5-print_string.py | print 3 times a string stored in the variable `str`                                                                      |
 | 6-concat.py       | print `Welcome to Holberton School!`                                                                                     |
+| 7-edges.py        | 7. Copy - Cut - Paste                                                                                                    |
