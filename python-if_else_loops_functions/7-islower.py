@@ -1,0 +1,5 @@
+
+def islower(c):
+    if ord(c) > 122 or ord(c) < 97:
+        return False
+    return True
