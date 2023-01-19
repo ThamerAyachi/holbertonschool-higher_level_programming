@@ -1,6 +1,7 @@
 # testing files
 *main.py
 add_0.py
+calculator_1.py
 
 # development folders
 __pycache__
