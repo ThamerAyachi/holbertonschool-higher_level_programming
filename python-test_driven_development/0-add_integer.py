@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module have one function"""
 
+
 def add_integer(a, b=98):
     """add two integer"""
     if not (isinstance(a, int) or isinstance(a, float)):
