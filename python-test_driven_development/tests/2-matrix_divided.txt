@@ -35,6 +35,10 @@ Divided by zero:
     Traceback (most recent call last):
     ...
     ZeroDivisionError: division by zero
+    >>> matrix_divided([[1, 2, 3]], 0.0)
+    Traceback (most recent call last):
+    ...
+    ZeroDivisionError: division by zero
 
 Div not a number:
     >>> matrix_divided([[1, 2, 3]], "2")
