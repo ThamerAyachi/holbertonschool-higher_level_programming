@@ -7,7 +7,7 @@ Return the sum of the parameter
 
 First import ``add_integer``
 
-    >>> add_integer = __import__("0-add_integer").add_integer
+    >>> add_integer = __import__('0-add_integer').add_integer
 
 Now use it:
 
@@ -27,7 +27,19 @@ Float and negative input:
     >>> add_integer(1.2, -1)
     0
 
-One float input:
-    >>> add_integer(2.1)
-    100
+Float overflow:
+    >>> add_integer(1500.5)
+    1598
+
+Float NaN:
+    >>> add_integer(float('NaN'))
+    Traceback (most recent call last):
+    ...
+    ValueError: cannot convert float NaN to integer
+
+String input:
+    >>> add_integer(4, "School")
+    Traceback (most recent call last):
+    ...
+    TypeError: b must be an integer
 
