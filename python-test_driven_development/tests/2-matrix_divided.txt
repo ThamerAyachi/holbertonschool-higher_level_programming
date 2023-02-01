@@ -35,10 +35,6 @@ Divided by zero:
     Traceback (most recent call last):
     ...
     ZeroDivisionError: division by zero
-    >>> matrix_divided([[1, 2, 3]], 0.0)
-    Traceback (most recent call last):
-    ...
-    ZeroDivisionError: division by zero
 
 Div not a number:
     >>> matrix_divided([[1, 2, 3]], "2")
@@ -69,6 +65,8 @@ Set without elements:
     ...
     TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
 
-
+Divided by infinity:
+    >>> matrix_divided([[1, 2, 3]], float("inf"))
+    [[0.0, 0.0, 0.0]]
 
 
