@@ -68,5 +68,3 @@ Set without elements:
 Divided by infinity:
     >>> matrix_divided([[1, 2, 3]], float("inf"))
     [[0.0, 0.0, 0.0]]
-
-
