@@ -20,9 +20,11 @@ class Rectangle:
 
     def __str__(self) -> str:
         string = ""
-        for i in range(self.__height):
-            string = string + "#" * self.__width
-            string = string + "\n"
+        if self.__height != 0 and self.__width:
+            for i in range(self.__height):
+                string = string + "#" * self.__width
+                if not i == self.__height - 1:
+                    string = string + "\n"
         return string
 
     @property
