@@ -6,7 +6,7 @@ if __name__ == "__main__":
     argv = sys.argv
     argv_length = len(argv)
 
-    if argv_length == 1:
+    if argv_length is not 2:
         print("Usage: nqueens N")
         exit(1)
 
