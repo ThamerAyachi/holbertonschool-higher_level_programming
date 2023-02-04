@@ -38,6 +38,8 @@ class Node:
 
 
 class SinglyLinkedList:
+    """Singly Linked List class"""
+
     def __init__(self):
         self.head = None
 
