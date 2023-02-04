@@ -6,6 +6,7 @@ class Node:
     """Node class"""
 
     def __init__(self, data, next_node=None) -> None:
+        """initial class"""
 
         if not isinstance(data, int):
             raise TypeError("data must be an integer")
@@ -34,3 +35,12 @@ class Node:
         if not isinstance(value, Node):
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
+
+
+class SinglyLinkedList:
+    """Singly Linked List class"""
+
+    __head: Node
+
+    def __init__(self) -> None:
+        pass
