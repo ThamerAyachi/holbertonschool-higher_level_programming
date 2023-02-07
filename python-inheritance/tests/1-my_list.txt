@@ -28,3 +28,6 @@ Simple Using:
     >>> my_list2 = MyList()
     >>> my_list2.print_sorted()
     []
+
+   >>> isinstance(my_list, list)
+   True
