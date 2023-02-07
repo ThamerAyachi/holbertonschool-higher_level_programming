@@ -1,0 +1,9 @@
+# testing files
+*main.py
+add_0.py
+calculator_1.py
+hidden_4.pyc
+variable_load_5.py
+
+# development folders
+__pycache__
