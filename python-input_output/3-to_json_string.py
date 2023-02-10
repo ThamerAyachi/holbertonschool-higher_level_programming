@@ -4,5 +4,12 @@ import json
 
 
 def to_json_string(my_obj) -> str:
-    """Obj to JSON"""
+    """_summary_
+
+    Args:
+        my_obj (_type_): _description_
+
+    Returns:
+        str: _description_
+    """
     return json.dumps(my_obj)
