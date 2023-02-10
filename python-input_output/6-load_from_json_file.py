@@ -5,5 +5,6 @@ import json
 
 def load_from_json_file(filename):
     """Get Obj from json file function"""
-    with open(filename, "r") as json_file:
-        return json.loads(json_file)
+    with open(filename, "r", encoding='utf8') as json_file:
+        obj = json_file.readlines()
+        return json.loads(obj)
