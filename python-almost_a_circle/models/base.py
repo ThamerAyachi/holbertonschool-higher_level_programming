@@ -6,7 +6,6 @@ class Base:
     """Base class have private and public instance"""
 
     __nb_object = 0
-    id: int
 
     def __init__(self, id=None) -> None:
         if id is not None:
