@@ -1,3 +1,4 @@
 .vscode
 sqltools*
 resource.sql
+__pycache__
