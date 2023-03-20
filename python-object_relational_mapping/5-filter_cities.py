@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     cursor = db.cursor()
 
-    query = "SELECT cities.id, cities.name, states.name FROM cities\
+    query = "SELECT cities.name FROM cities\
             LEFT JOIN states ON states.id = cities.state_id\
             WHERE states.name LIKE BINARY %s\
             ORDER BY cities.id ASC"
@@ -23,8 +23,7 @@ if __name__ == "__main__":
 
     rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    print(", ".join([city[0] for city in rows]))
 
     cursor.close()
     db.close()
