@@ -3,6 +3,6 @@
 let counter = 0;
 
 exports.logMe = (item) => {
-	console.log(`${counter}: ${item}`);
-	counter += 1;
+  console.log(`${counter}: ${item}`);
+  counter += 1;
 };
